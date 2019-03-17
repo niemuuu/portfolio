@@ -1,68 +1,98 @@
 <template>
-  <section class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        portfolio
-      </h1>
-      <h2 class="subtitle">
-        niemuuu&#39;s portfolio
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >GitHub</a>
-      </div>
+  <div class="container-top">
+    <div class="section-wrapper">
+      <hero-section />
+      <!-- About me -->
+      <section id="about" class="section">
+        <h3 class="title">
+          About me
+        </h3>
+        <div class="container">
+          <p>工業高校の電気科を卒業後、石油天然ガス開発企業のメンテナンス業に従事、プラントの安定稼働を支える。</p>
+          <p>次第にエンジニアという職業に憧れを持ち、独学で開発手法を学びつつ、LPIC（現LinuC）を取得。</p>
+          <p>2017年11月にWebエンジニアとして転職、様々なシステム・サービスの開発を行う。</p>
+          <br>
+          <p>React.js / Redux / Vue.js / Nuxt.js / TypeScript を用いたSPA開発や、<br>Node.js / Golang を用いたバックエンド開発を得意とする。</p>
+        </div>
+      </section>
+
+      <!-- Accounts -->
+      <section id="accounts" class="section">
+        <h3 class="title">
+          Accounts
+        </h3>
+        <div class="field has-addons">
+          <p class="control">
+            <a class="button" href="http://tmkk.hatenablog.com" alt="Blog link">Blog</a>
+          </p>
+          <p class="control">
+            <a class="button" href="https://twitter.com/niemuuu" alt="Twitter link">Twitter</a>
+          </p>
+          <p class="control">
+            <a class="button" href="https://github.com/niemuuu" alt="GitHub link">GitHub</a>
+          </p>
+          <p class="control">
+            <a class="button" href="https://qiita.com/niemuuu" alt="Qiita link">Qiita</a>
+          </p>
+          <p class="control">
+            <a class="button" href="https://www.wantedly.com/users/37956169" alt="Wantedly link">Wantedly</a>
+          </p>
+          <p class="control">
+            <a class="button" href="https://speakerdeck.com/niemuuu" alt="Speaker Deck link">Speaker Deck</a>
+          </p>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section">
+        <h3 class="title">
+          Contact
+        </h3>
+        <p>yorori.too[at]gmail.com</p>
+      </section>
     </div>
-  </section>
+    <footer class="footer">
+      <div class="content has-text-right">
+        <p>© 2019 niemuuu</p>
+      </div>
+    </footer>
+  </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import HeroSection from '~/components/HeroSection'
 
 export default {
   components: {
-    Logo
+    HeroSection
   }
 }
 </script>
 
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
+
+<style scoped lang="scss">
+.container-top {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+
+  .section-wrapper {
+    max-width: 768px;
+  }
 }
 
 .title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
+  text-align: left;
 }
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
+.footer {
+  width: 100%;
+  padding: 7px 10px;
 
-.links {
-  padding-top: 15px;
+  p {
+    color: gray;
+  }
 }
 </style>
