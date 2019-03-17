@@ -65,6 +65,11 @@ import HeroSection from '~/components/HeroSection'
 export default {
   components: {
     HeroSection
+  },
+  head() {
+    return {
+      title: 'niemuuu'
+    }
   }
 }
 </script>
