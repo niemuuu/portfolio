@@ -29,3 +29,11 @@
     </div>
   </section>
 </template>
+
+<style scoped lang="scss">
+.section {
+  div {
+    margin-bottom: 20px;
+  }
+}
+</style>
