@@ -5,11 +5,11 @@
     </h3>
     <div>
       <label class="label">Blog</label>
-      <a href="http://tmkk.hatenablog.com" alt="Blog link">http://tmkk.hatenablog.com</a>
+      <a href="https://tmkk.hatenablog.com" alt="Blog link">https://tmkk.hatenablog.com</a>
     </div>
     <div>
       <label class="label">Twitter</label>
-      <a href="http://twitter.com/niemuuu" alt="Twitter link">http://twitter.com/niemuuu</a>
+      <a href="https://twitter.com/niemuuu" alt="Twitter link">https://twitter.com/niemuuu</a>
     </div>
     <div>
       <label class="label">GitHub</label>
