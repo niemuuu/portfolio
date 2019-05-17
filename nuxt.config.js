@@ -39,7 +39,8 @@ module.exports = {
     '@nuxtjs/axios',
     // Doc:https://github.com/nuxt-community/modules/tree/master/packages/bulma
     '@nuxtjs/bulma',
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    '@nuxtjs/google-analytics'
   ],
   /*
   ** Axios module configuration
@@ -73,5 +74,9 @@ module.exports = {
         })
       }
     }
+  },
+
+  googleAnalytics: {
+    id: process.env.NUXT_ENV_GA_TRACKING_ID
   }
 }
