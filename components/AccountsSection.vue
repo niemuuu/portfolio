@@ -9,15 +9,15 @@
     </div>
     <div>
       <label class="label">Twitter</label>
-      <a href="https://twitter.com/niemuuu" alt="Twitter link">https://twitter.com/niemuuu</a>
+      <a href="https://twitter.com/_toxoxi" alt="Twitter link">https://twitter.com/_toxoxi</a>
     </div>
     <div>
       <label class="label">GitHub</label>
-      <a href="https://github.com/niemuuu" alt="GitHub link">https://github.com/niemuuu</a>
+      <a href="https://github.com/toxoxi" alt="GitHub link">https://github.com/toxoxi</a>
     </div>
     <div>
       <label class="label">Qiita</label>
-      <a href="https://qiita.com/niemuuu" alt="Qiita link">https://qiita.com/niemuuu</a>
+      <a href="https://qiita.com/toxoxi" alt="Qiita link">https://qiita.com/toxoxi</a>
     </div>
     <div>
       <label class="label">Wantedly</label>
@@ -25,7 +25,7 @@
     </div>
     <div>
       <label class="label">Speaker Deck</label>
-      <a href="https://speakerdeck.com/niemuuu" alt="Speaker Deck link">https://speakerdeck.com/niemuuu</a>
+      <a href="https://speakerdeck.com/toxoxi" alt="Speaker Deck link">https://speakerdeck.com/toxoxi</a>
     </div>
   </section>
 </template>

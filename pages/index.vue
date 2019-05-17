@@ -8,7 +8,7 @@
     </div>
     <footer class="footer">
       <div class="content has-text-right">
-        <p>© 2019 niemuuu</p>
+        <p>© 2019 Toxoxi</p>
       </div>
     </footer>
   </div>
@@ -29,7 +29,7 @@ export default {
   },
   head() {
     return {
-      title: 'niemuuu'
+      title: 'Toxoxi'
     }
   }
 }
@@ -56,9 +56,5 @@ export default {
 .footer {
   width: 100%;
   padding: 7px 10px;
-
-  p {
-    color: gray;
-  }
 }
 </style>

@@ -6,7 +6,7 @@
           <img class="is-rounded" src="~/assets/my_icon.jpg">
         </figure>
         <h1 class="title is-1">
-          niemuuu
+          Toxoxi
         </h1>
         <h2 class="subtitle is-3">
           Web Developer
@@ -29,5 +29,9 @@
   -webkit-flex-direction: column;
   flex-direction: column;
   align-items: center;
+}
+
+.title {
+  margin-top: 10px;
 }
 </style>
