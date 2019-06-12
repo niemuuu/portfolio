@@ -7,7 +7,7 @@
       <contact-section />
     </div>
     <footer class="footer">
-      <div class="content has-text-right">
+      <div class="content has-text-centered">
         <p>© 2019 Toxoxi</p>
       </div>
     </footer>
