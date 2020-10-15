@@ -1,6 +1,6 @@
 # portfolio
 
-> toxoxi&#39;s portfolio
+> plant&#39;s portfolio
 
 ## Build Setup
 

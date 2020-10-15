@@ -9,7 +9,7 @@
     </div>
     <div>
       <label class="label">Twitter</label>
-      <a href="https://twitter.com/_toxoxi" alt="Twitter link">https://twitter.com/_toxoxi</a>
+      <a href="https://twitter.com/plant_ja" alt="Twitter link">https://twitter.com/plant_ja</a>
     </div>
     <div>
       <label class="label">GitHub</label>

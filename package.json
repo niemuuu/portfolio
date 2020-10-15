@@ -1,8 +1,8 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "toxoxi&#39;s portfolio",
-  "author": "Toxoxi",
+  "description": "plant&#39;s portfolio",
+  "author": "plant",
   "private": true,
   "scripts": {
     "dev": "nuxt",

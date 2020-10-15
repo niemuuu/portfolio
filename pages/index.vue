@@ -8,7 +8,7 @@
     </div>
     <footer class="footer">
       <div class="content has-text-centered">
-        <p>© 2019 Toxoxi</p>
+        <p>© 2020 plant</p>
       </div>
     </footer>
   </div>
@@ -29,7 +29,7 @@ export default {
   },
   head() {
     return {
-      title: 'Toxoxi'
+      title: 'plant'
     }
   }
 }
