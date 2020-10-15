@@ -6,7 +6,7 @@
           <img class="is-rounded" src="~/assets/my_icon.jpg">
         </figure>
         <h1 class="title is-1">
-          Toxoxi
+          plant
         </h1>
         <h2 class="subtitle is-3">
           Web Developer
