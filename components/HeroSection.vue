@@ -1,3 +1,19 @@
+<script setup lang="ts">
+import { computed, ref } from 'vue'
+import { onMounted } from '@vue/runtime-core'
+
+const windowWidth = ref(0)
+const updateWindowWidth = () => windowWidth.value = window.innerWidth
+const isMobile = computed(() => windowWidth.value <= 768)
+
+onMounted(() => {
+  windowWidth.value = window.innerWidth
+  window.addEventListener('resize', updateWindowWidth)
+})
+
+defineExpose({ windowWidth, isMobile })
+</script>
+
 <template>
   <section class="hero is-fullheight is-fullheight-with-navbar">
     <div class="hero-body">
@@ -8,8 +24,12 @@
         <h1 class="title is-1">
           plant
         </h1>
-        <h2 class="subtitle is-3">
-          Web Developer | Curious Explorer
+        <h2 class="subtitle is-4">
+          <p v-if="!isMobile">Web Developer | Curious Explorer</p>
+          <div v-else>
+            <p>Web Developer</p>
+            <p>Curios Explorer</p>
+          </div>
         </h2>
         <div class="tabs is-centered is-medium">
           <ul>
@@ -25,6 +45,8 @@
 </template>
 
 <style lang="scss" scoped>
+@import "~/node_modules/bulma/sass/utilities/mixins";
+
 .container {
   display: flex;
   -webkit-flex-direction: column;
@@ -34,6 +56,22 @@
   .icon {
     width: 16rem;
     height: 16rem;
+  }
+}
+
+@include mobile {
+  .container .icon {
+    width: 14rem;
+    height: 14rem;
+  }
+
+  .tabs ul {
+    display: flex;
+    flex-direction: column;
+
+    a {
+      border: none
+    }
   }
 }
 
