@@ -14,7 +14,7 @@
       </p>
       <p>
         Currently, I'm working in a company providing online accounting/tax software for small businesses.
-        I'm responsible for the feature of calculating and reporting income taxes imposed for individuals, used by over hundreds of thousands users, as a developer and an engineering manager.
+        I'm responsible for the feature of calculating and reporting income taxes imposed for individuals, used by hundreds of thousands of users, as a developer and an engineering manager.
       </p>
     </div>
   </section>
