@@ -27,14 +27,8 @@ export default {
     AccountsSection,
     ContactSection
   },
-  head() {
-    return {
-      title: 'plant | Web developer'
-    }
-  }
 }
 </script>
-
 
 <style lang="scss" scoped>
 .container-top {
