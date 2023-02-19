@@ -4,6 +4,7 @@
       <hero-section />
       <about-section />
       <accounts-section />
+      <public-works-section />
       <contact-section />
     </div>
     <footer class="footer">
@@ -18,6 +19,7 @@
 import HeroSection from '~/components/HeroSection'
 import AboutSection from '~/components/AboutSection'
 import AccountsSection from '~/components/AccountsSection'
+import PublicWorksSection from '~/components/PublicWorksSection'
 import ContactSection from '~/components/ContactSection'
 
 export default {
@@ -25,6 +27,7 @@ export default {
     HeroSection,
     AboutSection,
     AccountsSection,
+    PublicWorksSection,
     ContactSection
   },
 }
@@ -37,8 +40,13 @@ export default {
   align-items: center;
   -webkit-flex-direction: column;
   flex-direction: column;
+  
   .section-wrapper {
     max-width: 768px;
+  }
+
+  .section {
+    padding-bottom: 2rem;
   }
 }
 

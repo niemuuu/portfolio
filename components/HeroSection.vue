@@ -15,6 +15,7 @@
           <ul>
             <li><a href="#about" alt="about link">About me</a></li>
             <li><a href="#accounts" alt="accounts link">Accounts</a></li>
+            <li><a href="#public-works" alt="public-works link">Public Works</a></li>
             <li><a href="#contact" alt="contact link">Contact</a></li>
           </ul>
         </div>
