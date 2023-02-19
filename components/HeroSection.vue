@@ -2,14 +2,14 @@
   <section class="hero is-fullheight is-fullheight-with-navbar">
     <div class="hero-body">
       <div class="container">
-        <figure class="image is-128x128">
+        <figure class="image icon">
           <img class="is-rounded" src="~/assets/my_icon.jpg">
         </figure>
         <h1 class="title is-1">
           plant
         </h1>
         <h2 class="subtitle is-3">
-          Web Developer
+          Web Developer | Curious Explorer
         </h2>
         <div class="tabs is-centered is-medium">
           <ul>
@@ -29,9 +29,15 @@
   -webkit-flex-direction: column;
   flex-direction: column;
   align-items: center;
+
+  .icon {
+    width: 16rem;
+    height: 16rem;
+  }
 }
 
 .title {
-  margin-top: 10px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 </style>

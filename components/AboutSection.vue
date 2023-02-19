@@ -4,13 +4,26 @@
       About me
     </h3>
     <div class="container">
-      <p>本名は石田友樹、新潟県上越市出身のWebエンジニア。</p>
-      <p>工業高校の電気科を卒業後、石油天然ガス開発企業のメンテナンス業に従事、プラントの安定稼働を支える。</p>
-      <p>次第にエンジニアという職業に憧れを持ち、独学で開発手法を学びつつ、LPIC（現LinuC）を取得。</p>
-      <p>2017年11月にWebエンジニアとしてSES企業に転職、様々なシステム・サービスの開発を行う。</p>
-      <p>2019年6月からはfreee株式会社でWebエンジニアとして活動。</p>
-      <br>
-      <p>React.js / Redux / Vue.js / Nuxt.js / TypeScript を用いたSPA開発、<br>Rails / Golangを用いたバックエンド開発を得意とする。</p>
+      <p>
+        I'm a Web Developer located in Japan.
+        I'm keen to develop software products that blend into people's daily lives and enrich them better.
+      </p>
+      <p>
+        Curiosity is the source of my energy.
+        I constantly get hooked on learning or playing something new, such as technology, game, sport, language, etc.
+      </p>
+      <p>
+        Currently, I'm working in a company providing online accounting/tax software for small businesses.
+        I'm responsible for the feature of calculating and reporting income taxes imposed for individuals, used by over hundreds of thousands users, as a developer and an engineering manager.
+      </p>
     </div>
   </section>
 </template>
+
+<style lang="scss" scoped>
+.container {
+  p {
+    margin-bottom: 1rem;
+  }
+}
+</style>
