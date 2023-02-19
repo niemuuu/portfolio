@@ -8,7 +8,7 @@
     </div>
     <footer class="footer">
       <div class="content has-text-centered">
-        <p>© 2020 plant</p>
+        <p>© 2023 plant</p>
       </div>
     </footer>
   </div>
@@ -29,21 +29,20 @@ export default {
   },
   head() {
     return {
-      title: 'plant'
+      title: 'plant | Web developer'
     }
   }
 }
 </script>
 
 
-<style scoped lang="scss">
+<style lang="scss" scoped>
 .container-top {
   display: flex;
   justify-content: center;
   align-items: center;
   -webkit-flex-direction: column;
   flex-direction: column;
-
   .section-wrapper {
     max-width: 768px;
   }
