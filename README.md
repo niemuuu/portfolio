@@ -1,7 +1,7 @@
-# Nuxt 3 Minimal Starter
+# What is this?
+https://portfolio-2m.firebaseapp.com
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-
+# Development
 ## Setup
 
 Make sure to install the dependencies:
