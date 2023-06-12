@@ -28,7 +28,7 @@ defineExpose({ windowWidth, isMobile })
           <p v-if="!isMobile">Web Developer | Curious Explorer</p>
           <div v-else>
             <p>Web Developer</p>
-            <p>Curios Explorer</p>
+            <p>Curious Explorer</p>
           </div>
         </h2>
         <div class="tabs is-centered is-medium">
