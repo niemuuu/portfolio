@@ -9,6 +9,9 @@
         I'm keen to develop software products that blend into people's daily lives and enrich them better.
       </p>
       <p>
+        While I'm working as a developer, I'm also a student remotely majoring in Computer Science at University of London.
+      </p>
+      <p>
         Curiosity is the source of my energy.
         I constantly get hooked on learning or playing something new, such as technology, game, sport, language, etc.
       </p>
