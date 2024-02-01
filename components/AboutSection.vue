@@ -15,10 +15,6 @@
         Curiosity is the source of my energy.
         I constantly get hooked on learning or playing something new, such as technology, game, sport, language, etc.
       </p>
-      <p>
-        Currently, I'm working in a company providing online accounting/tax software for small businesses.
-        I'm responsible for the feature of calculating and reporting income taxes imposed for individuals, used by hundreds of thousands of users, as a developer and an engineering manager.
-      </p>
     </div>
   </section>
 </template>
