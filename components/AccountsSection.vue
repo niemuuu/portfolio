@@ -15,6 +15,10 @@
       <label class="label">GitHub</label>
       <a href="https://github.com/toxoxi" alt="GitHub link">https://github.com/toxoxi</a>
     </div>
+    <div>
+      <label class="label">LinkedIn</label>
+      <a href="https://www.linkedin.com/in/ishida-tomoki-284a4a175" alt="LinkedIn link">https://www.linkedin.com/in/ishida-tomoki-284a4a175</a>
+    </div>
   </section>
 </template>
 
