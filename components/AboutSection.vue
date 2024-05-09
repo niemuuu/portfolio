@@ -5,15 +5,16 @@
     </h3>
     <div class="container">
       <p>
-        I'm a Web Developer located in Japan.
-        I'm keen to develop software products that blend into people's daily lives and enrich them better.
+        I'm a web developer based in Japan, passionate about creating software products that seamlessly integrate into people's daily lives and enhance them.
       </p>
       <p>
-        While I'm working as a developer, I'm also a student remotely majoring in Computer Science at University of London.
+        Currently I'm working at IT startup company in the field of manufacturing technology.
       </p>
       <p>
-        Curiosity is the source of my energy.
-        I constantly get hooked on learning or playing something new, such as technology, game, sport, language, etc.
+        Alongside my work as a developer, I'm pursuing a degree in Computer Science remotely from the University of London.
+      </p>
+      <p>
+        Curiosity drives me forward. I'm constantly drawn to learning and exploring new things, whether it's technology, games, sports, languages, or anything else.
       </p>
     </div>
   </section>
