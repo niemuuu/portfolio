@@ -22,7 +22,8 @@ defineExpose({ windowWidth, isMobile })
           <img class="is-rounded" src="~/assets/my_icon.jpg">
         </figure>
         <h1 class="title is-1">
-          plant
+          <p>Tomoki Ishida</p>
+          <p>a.k.a. plant</p>
         </h1>
         <h2 class="subtitle is-4">
           <p v-if="!isMobile">Web Developer | Curious Explorer</p>
@@ -52,6 +53,15 @@ defineExpose({ windowWidth, isMobile })
   -webkit-flex-direction: column;
   flex-direction: column;
   align-items: center;
+
+  .title {
+    p {
+      text-align: center;
+    }
+    p:nth-child(2) {
+      font-size: smaller;
+    }
+  }
 
   .icon {
     width: 16rem;
